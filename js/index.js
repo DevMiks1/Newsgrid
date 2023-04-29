@@ -1,11 +1,8 @@
 const burger = document.querySelector("#icon");
 const triggerIcon = document.querySelector("#triggerIcon");
 const navLinks = document.querySelector("#navLinks");
-const changeColor = document.querySelector('#changeColor')
 
-changeColor.addEventListener('click', (e)=>{
-  document.body.style.backgroundColor = "black";
-})
+
 
 // Trigger for hamburger menu
 triggerIcon.addEventListener("click", (e) => {
